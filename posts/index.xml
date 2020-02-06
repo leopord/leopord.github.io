@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Leopord的博客</title>
+    <link>https://leopord.github.io/posts/</link>
+    <description>Recent content in Posts on Leopord的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 06 Feb 2020 16:11:32 +0800</lastBuildDate>
+    
+	<atom:link href="https://leopord.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Markdown基本语法</title>
+      <link>https://leopord.github.io/posts/markdown/</link>
+      <pubDate>Thu, 06 Feb 2020 16:11:32 +0800</pubDate>
+      
+      <guid>https://leopord.github.io/posts/markdown/</guid>
+      <description>Markdown是一种纯文本格式的标记语言。通过简单的标记语法，它可以使普通文本内容具有一定的格式。
+一、标题 在想要设置为标题的文字前面加#来表示 一个#是一级标题，二个#是二级标题，以此类推。支持六级标题。
+注：标准语法一般在#后跟个空格再写文字，貌似简书不加空格也行。
+示例：
+# 这是一级标题 ## 这是二级标题 ### 这是三级标题 #### 这是四级标题 ##### 这是五级标题 ###### 这是六级标题 效果如下：
+这是一级标题 这是二级标题 这是三级标题 这是四级标题 这是五级标题 这是六级标题  二、字体 1.加粗 要加粗的文字左右分别用两个*号包起来
+2.斜体 要倾斜的文字左右分别用一个*号包起来
+3.斜体加粗 要倾斜和加粗的文字左右分别用三个*号包起来
+4.删除线 要加删除线的文字左右分别用两个~~号包起来
+示例：
+**这是加粗的文字** *这是倾斜的文字*` ***这是斜体加粗的文字*** ~~这是加删除线的文字~~ 效果如下：
+这是加粗的文字
+这是倾斜的文字`
+这是斜体加粗的文字
+这是加删除线的文字
+ 三、引用 在引用的文字前加&amp;gt;即可。引用也可以嵌套，如加两个&amp;gt;、三个&amp;gt;
+n个&amp;hellip;
+貌似可以一直加下去，但没神马卵用
+示例：
+&amp;gt;这是引用的内容 &amp;gt;&amp;gt;这是引用的内容 &amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;这是引用的内容 效果如下：
+ 这是引用的内容
+ 这是引用的内容
+   这是引用的内容
+      四、分割线 三个或者三个以上的 - 或者 * 都可以。</description>
+    </item>
+    
+  </channel>
+</rss>
