@@ -6,13 +6,24 @@
     <description>Recent content on Leopord的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 06 Feb 2020 16:11:32 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 07 Feb 2020 17:23:03 +0800</lastBuildDate>
     
 	<atom:link href="https://leopord.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Markdown基本语法</title>
+      <title>Vim操作命令大全（转）</title>
+      <link>https://leopord.github.io/posts/vim/</link>
+      <pubDate>Fri, 07 Feb 2020 17:23:03 +0800</pubDate>
+      
+      <guid>https://leopord.github.io/posts/vim/</guid>
+      <description>1 关于Vim Vim是我最喜欢的编辑器，也是Linux下第二强大的编辑器。 虽然emacs是公认的世界第一，我认为使用emacs并没有使用vi进行编辑来得高效。 如果是初学vi，运行一下vimtutor是个聪明的决定。
+如果你的系统环境不是中文，而你想使用中文的vimtutor，就运行vimtutor zh）
+1.1 Vim的几种模式  正常模式：可以使用快捷键命令，或按:输入命令行。 插入模式：可以输入文本，在正常模式下，按i、I、a、A、o、O等都可以进入插入模式。 可视模式：  按v可以进入可视模式， 在可视模式下，移动光标可以选择文本。 按V进入可视行模式， 总是整行整行的选中。 ctrl+v进入可视块模式。   替换模式：正常模式下，按R进入。   2 启动Vim  vim -c cmd file: 在打开文件前，先执行指定的命令； vim -r file: 恢复上次异常退出的文件； vim -R file: 以只读的方式打开文件，但可以强制保存； vim -M file: 以只读的方式打开文件，不可以强制保存； vim -y num file: 将编辑窗口的大小设为num行； vim + file: 从文件的末尾开始； vim +num file: 从第num行开始； vim +/string file: 打开file，并将光标停留在第一个找到的string上。 vim –remote file: 用已有的vim进程打开指定的文件。 如果你不想启用多个vim会话，这个很有用。但要注意， 如果你用vim，会寻找名叫VIM的服务器；如果你已经有一个gvim在运行了， 你可以用gvim –remote file在已有的gvim中打开文件。   3 文档操作  :e file – 关闭当前编辑的文件，并开启新的文件。 如果对当前文件的修改未保存，vi会警告。 :e!</description>
+    </item>
+    
+    <item>
+      <title>Markdown基本语法（转）</title>
       <link>https://leopord.github.io/posts/markdown/</link>
       <pubDate>Thu, 06 Feb 2020 16:11:32 +0800</pubDate>
       
