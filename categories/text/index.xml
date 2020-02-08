@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Text on Leopord的博客</title>
+    <title>Text on Leopord</title>
     <link>https://leopord.github.io/categories/text/</link>
-    <description>Recent content in Text on Leopord的博客</description>
+    <description>Recent content in Text on Leopord</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 07 Feb 2020 17:23:03 +0800</lastBuildDate>
@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>Vim操作命令大全（转）</title>
+      <title>Vim操作命令</title>
       <link>https://leopord.github.io/posts/vim/</link>
       <pubDate>Fri, 07 Feb 2020 17:23:03 +0800</pubDate>
       
@@ -23,7 +23,7 @@
     </item>
     
     <item>
-      <title>Markdown基本语法（转）</title>
+      <title>Markdown基本语法</title>
       <link>https://leopord.github.io/posts/markdown/</link>
       <pubDate>Thu, 06 Feb 2020 16:11:32 +0800</pubDate>
       

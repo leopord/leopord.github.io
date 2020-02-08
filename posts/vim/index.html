@@ -1,22 +1,22 @@
 <!doctype html>
 <html lang="en-us">
   <head>
-    <title>Vim操作命令大全（转） - Leopord的博客</title>
+    <title>Vim操作命令 - Leopord</title>
     <meta charset="utf-8" />
     <meta name="generator" content="Hugo 0.64.0" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Leopord" />
     <meta name="description" content="" />
-    <link rel="stylesheet" href="https://leopord.github.io/css/main.min.61bb32028587f24ca28522d8d197970c7ef33284e5fffb45a75fcbbb2dbc4dcb.css" />
+    <link rel="stylesheet" href="https://leopord.github.io/css/main.min.34a0f8242c90e6d26cdecf3f7839fa8bfb49a41b4d82c55175380b23f227a414.css" />
 
     
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Vim操作命令大全（转）"/>
+<meta name="twitter:title" content="Vim操作命令"/>
 <meta name="twitter:description" content="1 关于Vim Vim是我最喜欢的编辑器，也是Linux下第二强大的编辑器。 虽然emacs是公认的世界第一，我认为使用emacs并没有使用vi进行编辑来得高效。 如果是初学vi，运行一下vimtutor是个聪明的决定。
 如果你的系统环境不是中文，而你想使用中文的vimtutor，就运行vimtutor zh）
 1.1 Vim的几种模式  正常模式：可以使用快捷键命令，或按:输入命令行。 插入模式：可以输入文本，在正常模式下，按i、I、a、A、o、O等都可以进入插入模式。 可视模式：  按v可以进入可视模式， 在可视模式下，移动光标可以选择文本。 按V进入可视行模式， 总是整行整行的选中。 ctrl&#43;v进入可视块模式。   替换模式：正常模式下，按R进入。   2 启动Vim  vim -c cmd file: 在打开文件前，先执行指定的命令； vim -r file: 恢复上次异常退出的文件； vim -R file: 以只读的方式打开文件，但可以强制保存； vim -M file: 以只读的方式打开文件，不可以强制保存； vim -y num file: 将编辑窗口的大小设为num行； vim &#43; file: 从文件的末尾开始； vim &#43;num file: 从第num行开始； vim &#43;/string file: 打开file，并将光标停留在第一个找到的string上。 vim –remote file: 用已有的vim进程打开指定的文件。 如果你不想启用多个vim会话，这个很有用。但要注意， 如果你用vim，会寻找名叫VIM的服务器；如果你已经有一个gvim在运行了， 你可以用gvim –remote file在已有的gvim中打开文件。   3 文档操作  :e file – 关闭当前编辑的文件，并开启新的文件。 如果对当前文件的修改未保存，vi会警告。 :e!"/>
 
-    <meta property="og:title" content="Vim操作命令大全（转）" />
+    <meta property="og:title" content="Vim操作命令" />
 <meta property="og:description" content="1 关于Vim Vim是我最喜欢的编辑器，也是Linux下第二强大的编辑器。 虽然emacs是公认的世界第一，我认为使用emacs并没有使用vi进行编辑来得高效。 如果是初学vi，运行一下vimtutor是个聪明的决定。
 如果你的系统环境不是中文，而你想使用中文的vimtutor，就运行vimtutor zh）
 1.1 Vim的几种模式  正常模式：可以使用快捷键命令，或按:输入命令行。 插入模式：可以输入文本，在正常模式下，按i、I、a、A、o、O等都可以进入插入模式。 可视模式：  按v可以进入可视模式， 在可视模式下，移动光标可以选择文本。 按V进入可视行模式， 总是整行整行的选中。 ctrl&#43;v进入可视块模式。   替换模式：正常模式下，按R进入。   2 启动Vim  vim -c cmd file: 在打开文件前，先执行指定的命令； vim -r file: 恢复上次异常退出的文件； vim -R file: 以只读的方式打开文件，但可以强制保存； vim -M file: 以只读的方式打开文件，不可以强制保存； vim -y num file: 将编辑窗口的大小设为num行； vim &#43; file: 从文件的末尾开始； vim &#43;num file: 从第num行开始； vim &#43;/string file: 打开file，并将光标停留在第一个找到的string上。 vim –remote file: 用已有的vim进程打开指定的文件。 如果你不想启用多个vim会话，这个很有用。但要注意， 如果你用vim，会寻找名叫VIM的服务器；如果你已经有一个gvim在运行了， 你可以用gvim –remote file在已有的gvim中打开文件。   3 文档操作  :e file – 关闭当前编辑的文件，并开启新的文件。 如果对当前文件的修改未保存，vi会警告。 :e!" />
@@ -29,9 +29,15 @@
   </head>
   <body>
     <header class="app-header">
-      <a href="https://leopord.github.io/"><img class="app-header-avatar" src="/img/avatar.jpg" alt="Leopord" /></a>
+      <a href="https://leopord.github.io"><img class="app-header-avatar" src="/img/avatar.jpg" alt="Leopord" /></a>
       <h1>Leopord</h1>
       <p></p>
+      <ul class="app-header-menu">
+        <a href="https://leopord.github.io"><li>Home</li></a>
+        <a href="https://leopord.github.io/posts"><li>Archvies</li></a>
+        <a href="https://leopord.github.io/categories"><li>Categories</li></a>
+        <a href="https://leopord.github.io/tags"><li>Tags</li></a>
+      </ul>
       <div class="app-header-social">
         
           <a target="_blank" href="https://github.com/leopord" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
@@ -45,7 +51,7 @@
       
   <article class="post">
     <header class="post-header">
-      <h1 class ="post-title">Vim操作命令大全（转）</h1>
+      <h1 class ="post-title">Vim操作命令</h1>
       <div class="post-meta">
         <div>
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
