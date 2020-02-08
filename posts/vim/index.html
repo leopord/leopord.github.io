@@ -7,19 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Leopord" />
     <meta name="description" content="" />
-    <link rel="stylesheet" href="https://leopord.github.io/css/main.min.34a0f8242c90e6d26cdecf3f7839fa8bfb49a41b4d82c55175380b23f227a414.css" />
+    <link rel="stylesheet" href="https://leopord.github.io/css/main.min.2f10b6b6fd6c2b66e9b8df99b4e068452c8db026d05483680df4f0ee0163948c.css" />
 
     
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Vim操作命令"/>
 <meta name="twitter:description" content="1 关于Vim Vim是我最喜欢的编辑器，也是Linux下第二强大的编辑器。 虽然emacs是公认的世界第一，我认为使用emacs并没有使用vi进行编辑来得高效。 如果是初学vi，运行一下vimtutor是个聪明的决定。
 如果你的系统环境不是中文，而你想使用中文的vimtutor，就运行vimtutor zh）
-1.1 Vim的几种模式  正常模式：可以使用快捷键命令，或按:输入命令行。 插入模式：可以输入文本，在正常模式下，按i、I、a、A、o、O等都可以进入插入模式。 可视模式：  按v可以进入可视模式， 在可视模式下，移动光标可以选择文本。 按V进入可视行模式， 总是整行整行的选中。 ctrl&#43;v进入可视块模式。   替换模式：正常模式下，按R进入。   2 启动Vim  vim -c cmd file: 在打开文件前，先执行指定的命令； vim -r file: 恢复上次异常退出的文件； vim -R file: 以只读的方式打开文件，但可以强制保存； vim -M file: 以只读的方式打开文件，不可以强制保存； vim -y num file: 将编辑窗口的大小设为num行； vim &#43; file: 从文件的末尾开始； vim &#43;num file: 从第num行开始； vim &#43;/string file: 打开file，并将光标停留在第一个找到的string上。 vim –remote file: 用已有的vim进程打开指定的文件。 如果你不想启用多个vim会话，这个很有用。但要注意， 如果你用vim，会寻找名叫VIM的服务器；如果你已经有一个gvim在运行了， 你可以用gvim –remote file在已有的gvim中打开文件。   3 文档操作  :e file – 关闭当前编辑的文件，并开启新的文件。 如果对当前文件的修改未保存，vi会警告。 :e!"/>
+1.1 Vim的几种模式  正常模式：可以使用快捷键命令，或按:输入命令行。 插入模式：可以输入文本，在正常模式下，按i、I、a、A、o、O等都可以进入插入模式。 可视模式：  按v可以进入可视模式， 在可视模式下，移动光标可以选择文本。 按V进入可视行模式， 总是整行整行的选中。 ctrl&#43;v进入可视块模式。   替换模式：正常模式下，按R进入。  2 启动Vim  vim -c cmd file: 在打开文件前，先执行指定的命令； vim -r file: 恢复上次异常退出的文件； vim -R file: 以只读的方式打开文件，但可以强制保存； vim -M file: 以只读的方式打开文件，不可以强制保存； vim -y num file: 将编辑窗口的大小设为num行； vim &#43; file: 从文件的末尾开始； vim &#43;num file: 从第num行开始； vim &#43;/string file: 打开file，并将光标停留在第一个找到的string上。 vim –remote file: 用已有的vim进程打开指定的文件。 如果你不想启用多个vim会话，这个很有用。但要注意， 如果你用vim，会寻找名叫VIM的服务器；如果你已经有一个gvim在运行了， 你可以用gvim –remote file在已有的gvim中打开文件。  3 文档操作  :e file – 关闭当前编辑的文件，并开启新的文件。 如果对当前文件的修改未保存，vi会警告。 :e!"/>
 
     <meta property="og:title" content="Vim操作命令" />
 <meta property="og:description" content="1 关于Vim Vim是我最喜欢的编辑器，也是Linux下第二强大的编辑器。 虽然emacs是公认的世界第一，我认为使用emacs并没有使用vi进行编辑来得高效。 如果是初学vi，运行一下vimtutor是个聪明的决定。
 如果你的系统环境不是中文，而你想使用中文的vimtutor，就运行vimtutor zh）
-1.1 Vim的几种模式  正常模式：可以使用快捷键命令，或按:输入命令行。 插入模式：可以输入文本，在正常模式下，按i、I、a、A、o、O等都可以进入插入模式。 可视模式：  按v可以进入可视模式， 在可视模式下，移动光标可以选择文本。 按V进入可视行模式， 总是整行整行的选中。 ctrl&#43;v进入可视块模式。   替换模式：正常模式下，按R进入。   2 启动Vim  vim -c cmd file: 在打开文件前，先执行指定的命令； vim -r file: 恢复上次异常退出的文件； vim -R file: 以只读的方式打开文件，但可以强制保存； vim -M file: 以只读的方式打开文件，不可以强制保存； vim -y num file: 将编辑窗口的大小设为num行； vim &#43; file: 从文件的末尾开始； vim &#43;num file: 从第num行开始； vim &#43;/string file: 打开file，并将光标停留在第一个找到的string上。 vim –remote file: 用已有的vim进程打开指定的文件。 如果你不想启用多个vim会话，这个很有用。但要注意， 如果你用vim，会寻找名叫VIM的服务器；如果你已经有一个gvim在运行了， 你可以用gvim –remote file在已有的gvim中打开文件。   3 文档操作  :e file – 关闭当前编辑的文件，并开启新的文件。 如果对当前文件的修改未保存，vi会警告。 :e!" />
+1.1 Vim的几种模式  正常模式：可以使用快捷键命令，或按:输入命令行。 插入模式：可以输入文本，在正常模式下，按i、I、a、A、o、O等都可以进入插入模式。 可视模式：  按v可以进入可视模式， 在可视模式下，移动光标可以选择文本。 按V进入可视行模式， 总是整行整行的选中。 ctrl&#43;v进入可视块模式。   替换模式：正常模式下，按R进入。  2 启动Vim  vim -c cmd file: 在打开文件前，先执行指定的命令； vim -r file: 恢复上次异常退出的文件； vim -R file: 以只读的方式打开文件，但可以强制保存； vim -M file: 以只读的方式打开文件，不可以强制保存； vim -y num file: 将编辑窗口的大小设为num行； vim &#43; file: 从文件的末尾开始； vim &#43;num file: 从第num行开始； vim &#43;/string file: 打开file，并将光标停留在第一个找到的string上。 vim –remote file: 用已有的vim进程打开指定的文件。 如果你不想启用多个vim会话，这个很有用。但要注意， 如果你用vim，会寻找名叫VIM的服务器；如果你已经有一个gvim在运行了， 你可以用gvim –remote file在已有的gvim中打开文件。  3 文档操作  :e file – 关闭当前编辑的文件，并开启新的文件。 如果对当前文件的修改未保存，vi会警告。 :e!" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://leopord.github.io/posts/vim/" />
 <meta property="article:published_time" content="2020-02-07T17:23:03+08:00" />
@@ -29,20 +29,37 @@
   </head>
   <body>
     <header class="app-header">
-      <a href="https://leopord.github.io"><img class="app-header-avatar" src="/img/avatar.jpg" alt="Leopord" /></a>
+      <a href="https://leopord.github.io"><img class="app-header-avatar" src="/avatar.jpg" alt="Leopord" /></a>
       <h1>Leopord</h1>
       <p></p>
       <ul class="app-header-menu">
-        <a href="https://leopord.github.io"><li>Home</li></a>
-        <a href="https://leopord.github.io/posts"><li>Archvies</li></a>
-        <a href="https://leopord.github.io/categories"><li>Categories</li></a>
-        <a href="https://leopord.github.io/tags"><li>Tags</li></a>
+        <a href="https://leopord.github.io"><li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-home">
+  <title>home</title>
+  <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline>
+</svg> 首页</li></a>
+        <a href="https://leopord.github.io/posts"><li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-file-text">
+  <title>file-text</title>
+  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline>
+</svg> 文章</li></a>
+        <a href="https://leopord.github.io/categories"><li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-layers">
+  <title>layers</title>
+  <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline>
+</svg> 分类</li></a>
+        <a href="https://leopord.github.io/tags"><li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
+</svg> 标签</li></a>
       </ul>
       <div class="app-header-social">
         
           <a target="_blank" href="https://github.com/leopord" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
   <title>github</title>
   <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+</svg></a>
+        
+          <a target="_blank" href="mailto:leopordt@hotmail.com" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-mail">
+  <title>mail</title>
+  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline>
 </svg></a>
         
       </div>
@@ -53,25 +70,23 @@
     <header class="post-header">
       <h1 class ="post-title">Vim操作命令</h1>
       <div class="post-meta">
-        <div>
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+        
+        <span class="posts-status reproduce">转载</span>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
   <title>calendar</title>
   <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
 </svg>
-          Feb 7, 2020
-        </div>
-        <div>
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
-  <title>clock</title>
-  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
-</svg>
-          8 min read
-        </div><div>
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+        2020-02-07<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
   <title>tag</title>
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
-          <a class="tag" href="https://leopord.github.io/tags/text/">Text</a><a class="tag" href="https://leopord.github.io/tags/texteditor/">TextEditor</a></div></div>
+          <a class="tag" href="https://leopord.github.io/tags/text/">Text</a><a class="tag" href="https://leopord.github.io/tags/texteditor/">TextEditor</a></div>
+      <div class="post-reproduce-url">
+      
+        
+      
+      </div>
     </header>
     <div class="post-content">
       <h1 id="1-关于vim">1 关于Vim</h1>
@@ -90,7 +105,6 @@
 </li>
 <li>替换模式：正常模式下，按R进入。</li>
 </ul>
-<hr>
 <h1 id="2-启动vim">2 启动Vim</h1>
 <ul>
 <li>vim -c cmd file: 在打开文件前，先执行指定的命令；</li>
@@ -103,7 +117,6 @@
 <li>vim +/string file: 打开file，并将光标停留在第一个找到的string上。</li>
 <li>vim –remote file: 用已有的vim进程打开指定的文件。 如果你不想启用多个vim会话，这个很有用。但要注意， 如果你用vim，会寻找名叫VIM的服务器；如果你已经有一个gvim在运行了， 你可以用gvim –remote file在已有的gvim中打开文件。</li>
 </ul>
-<hr>
 <h1 id="3-文档操作">3 文档操作</h1>
 <ul>
 <li>:e file – 关闭当前编辑的文件，并开启新的文件。 如果对当前文件的修改未保存，vi会警告。</li>
@@ -135,7 +148,6 @@
 <li>:Sex – 水平分割一个窗口，浏览文件系统；</li>
 <li>:Vex – 垂直分割一个窗口，浏览文件系统；</li>
 </ul>
-<hr>
 <h1 id="4-光标的移动">4. 光标的移动</h1>
 <h3 id="41-基本移动">4.1 基本移动</h3>
 <p>以下移动都是在normal模式下</p>
@@ -216,7 +228,6 @@
 <li>:delmarks! – 删除当前缓冲区的所有标记。</li>
 <li>:help mark-motions 查看更多关于mark的知识。</li>
 </ul>
-<hr>
 <h1 id="5-插入文本">5 插入文本</h1>
 <h3 id="51-基本插入">5.1 基本插入</h3>
 <ul>
@@ -241,7 +252,6 @@
 <li>[n]S: 删除指定数目的行，并以所输入文本代替之。</li>
 </ul>
 <p>注意：类似cnw,dnw,ynw的形式同样可以写为ncw,ndw,nyw。</p>
-<hr>
 <h1 id="6-剪切复制和寄存器">6 剪切复制和寄存器</h1>
 <h3 id="61-剪切和复制粘贴">6.1 剪切和复制、粘贴</h3>
 <ul>
@@ -307,7 +317,6 @@
 <li>&ldquo;*：当前选择缓冲区，&quot;*yy把当前行的内容放入当前选择缓冲区。</li>
 <li>&ldquo;+：系统剪贴板。&ldquo;+yy把当前行的内容放入系统剪贴板。</li>
 </ul>
-<hr>
 <h1 id="7-查找与替换">7. 查找与替换</h1>
 <h3 id="71-查找">7.1 查找</h3>
 <ul>
@@ -375,7 +384,6 @@ vimgrep前面可以加数字限定搜索结果的上限，如：
 <li>**: 当前目录下的所有子目录。</li>
 </ul>
 <p>help pattern得到更多帮助。</p>
-<hr>
 <h1 id="8-排版">8 排版</h1>
 <h3 id="81-基本排版">8.1 基本排版</h3>
 <ul>
@@ -406,7 +414,6 @@ vimgrep前面可以加数字限定搜索结果的上限，如：
 </ul>
 <h3 id="83-统计字数">8.3 统计字数</h3>
 <p>g^g可以统计文档字符数，行数。 将光标放在最后一个字符上，用字符数减去行数可以粗略统计中文文档的字数。 以上对 Mac 或 Unix 的文件格式适用。 如果是 Windows 文件格式（即换行符有两个字节），字数的统计方法为： 字符数 - 行数 * 2。</p>
-<hr>
 <h1 id="9-编辑多个文件">9 编辑多个文件</h1>
 <h3 id="91-一次编辑多个文件">9.1 一次编辑多个文件</h3>
 <p>我们可以一次打开多个文件，如： vi a.txt b.txt c.txt</p>
@@ -447,7 +454,6 @@ vimgrep前面可以加数字限定搜索结果的上限，如：
 <li>:nbd(elete) – 删除第n个缓冲区，并未真正删除，还在unlisted列表中。</li>
 <li>:ba[ll] – 把所有的缓冲区在当前页中打开，每个缓冲区占一个窗口。</li>
 </ul>
-<hr>
 <h1 id="10-分屏编辑">10. 分屏编辑</h1>
 <ul>
 <li>vim -o file1 file2:水平分割窗口，同时打开file1和file2</li>
@@ -498,7 +504,6 @@ vimgrep前面可以加数字限定搜索结果的上限，如：
 <li>ctrl+w r：旋转窗口的位置。</li>
 <li>ctrl+w T: 将当前的窗口移动到新的标签页上。</li>
 </ul>
-<hr>
 <h1 id="11-快速编辑">11 快速编辑</h1>
 <h3 id="111-改变大小写">11.1 改变大小写</h3>
 <ul>
@@ -528,7 +533,6 @@ vimgrep前面可以加数字限定搜索结果的上限，如：
 <li>q：停止录制</li>
 <li>@a：播放宏a</li>
 </ul>
-<hr>
 <h1 id="12-编辑特殊文件">12 编辑特殊文件</h1>
 <h3 id="121-文件加解密">12.1 文件加解密</h3>
 <ul>
@@ -553,7 +557,6 @@ vimgrep前面可以加数字限定搜索结果的上限，如：
 <li>:set ff，显示当前文件的格式。</li>
 <li>在vimrc中添加set fileformats=unix,dos,mac，让vim自动识别文件格式。</li>
 </ul>
-<hr>
 <h1 id="13-编程辅助">13 编程辅助</h1>
 <h3 id="131-一些按键">13.1 一些按键</h3>
 <ul>
@@ -692,7 +695,6 @@ vimgrep前面可以加数字限定搜索结果的上限，如：
 <li>zk – 跳到上一个折叠处；</li>
 <li>zi – enable/disable fold;</li>
 </ul>
-<hr>
 <h1 id="14-命令行">14 命令行</h1>
 <p>normal模式下按:进入命令行模式</p>
 <h3 id="141-命令行模式下的快捷键">14.1 命令行模式下的快捷键：</h3>
@@ -718,7 +720,6 @@ vimgrep前面可以加数字限定搜索结果的上限，如：
 <li>:r !cmd 将命令的返回结果插入文件当前位置。</li>
 <li>:m,nw !cmd 将文件的m行到n行之间的内容做为命令输入执行命令。</li>
 </ul>
-<hr>
 <h1 id="15-其它">15 其它</h1>
 <h3 id="151-工作目录">15.1 工作目录</h3>
 <ul>
@@ -769,16 +770,17 @@ vimgrep前面可以加数字限定搜索结果的上限，如：
 <ul>
 <li>简单计算器: 在插入模式下，输入ctrl+r =，然后输入表达式，就能在 光标处得到计算结果。</li>
 </ul>
-<hr>
 <h1 id="16-附录">16 附录</h1>
 <p><img src="/img/vim.png" alt="Vim命令" title="Vim命令"></p>
 
     </div>
-    <div class="post-footer">
-      
-    </div>
   </article>
 
     </main>
+    <div class="app-footer">
+      
+      <p><a target="_blank" href="https://gohugo.io/">Hugo 强力支持</a> | 主题 - m10c</p>
+      <p>© 2020 Leopord</p>
+    </div>
   </body>
 </html>
