@@ -5,7 +5,7 @@
     <link>https://leopord.github.io/tags/markdown/</link>
     <description>Recent content in Markdown on Leopord</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     <lastBuildDate>Thu, 06 Feb 2020 16:11:32 +0800</lastBuildDate>
     
 	<atom:link href="https://leopord.github.io/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
@@ -13,37 +13,11 @@
     
     <item>
       <title>Markdown基本语法</title>
-      <link>https://leopord.github.io/posts/markdown/</link>
+      <link>https://leopord.github.io/post/markdown/</link>
       <pubDate>Thu, 06 Feb 2020 16:11:32 +0800</pubDate>
       
-      <guid>https://leopord.github.io/posts/markdown/</guid>
-      <description>Markdown是一种纯文本格式的标记语言。通过简单的标记语法，它可以使普通文本内容具有一定的格式。
-相比WYSIWYG编辑器
-优点：
- 因为是纯文本，所以只要支持Markdown的地方都能获得一样的编辑效果，可以让作者摆脱排版的困扰，专心写作。 操作简单。比如:WYSIWYG编辑时标记个标题，先选中内容，再点击导航栏的标题按钮，选择几级标题。要三个步骤。而Markdown只需要在标题内容前加#即可  缺点：
- 需要记一些语法（当然，是很简单。五分钟学会）。 有些平台不支持Markdown编辑模式。  还好，简书是支持Markdown编辑模式的。开启方式：设置-&amp;gt;默认编辑器-&amp;gt;Markdown编辑器
-一、标题 在想要设置为标题的文字前面加#来表示 一个#是一级标题，二个#是二级标题，以此类推。支持六级标题。
-注：标准语法一般在#后跟个空格再写文字，貌似简书不加空格也行。
-示例：
-# 这是一级标题 ## 这是二级标题 ### 这是三级标题 #### 这是四级标题 ##### 这是五级标题 ###### 这是六级标题 效果如下：
-这是一级标题 这是二级标题 这是三级标题 这是四级标题 这是五级标题 这是六级标题 二、字体 1.加粗 要加粗的文字左右分别用两个*号包起来
-2.斜体 要倾斜的文字左右分别用一个*号包起来
-3.斜体加粗 要倾斜和加粗的文字左右分别用三个*号包起来
-4.删除线 要加删除线的文字左右分别用两个~~号包起来
-示例：
-**这是加粗的文字** *这是倾斜的文字*` ***这是斜体加粗的文字*** ~~这是加删除线的文字~~ 效果如下：
-这是加粗的文字
-这是倾斜的文字`
-这是斜体加粗的文字
-这是加删除线的文字
-三、引用 在引用的文字前加&amp;gt;即可。引用也可以嵌套，如加两个&amp;gt;、三个&amp;gt;
-n个&amp;hellip;
-貌似可以一直加下去，但没神马卵用
-示例：
-&amp;gt;这是引用的内容 &amp;gt;&amp;gt;这是引用的内容 &amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;这是引用的内容 效果如下：
- 这是引用的内容
- 这是引用的内容
-   这是引用的内容</description>
+      <guid>https://leopord.github.io/post/markdown/</guid>
+      <description>Markdown是一种纯文本格式的标记语言。通过简单的标记语法，它可以使普通文本内容具有一定的格式。 相比WYSIWYG编辑器 优点： 因为是纯文</description>
     </item>
     
   </channel>

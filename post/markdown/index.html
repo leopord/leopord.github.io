@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Markdown - Leopord</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Leopord" /><meta name="description" content="Markdown是一种纯文本格式的标记语言。通过简单的标记语法，它可以使普通文本内容具有一定的格式。
+" /><meta name="keywords" content="Markdown" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.64.1 with theme even" />
+
+
+<link rel="canonical" href="https://leopord.github.io/post/markdown/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+<link href="/dist/even.c2a46f00.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="Markdown" />
+<meta property="og:description" content="Markdown是一种纯文本格式的标记语言。通过简单的标记语法，它可以使普通文本内容具有一定的格式。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://leopord.github.io/post/markdown/" />
+<meta property="article:published_time" content="2020-02-06T16:11:32+08:00" />
+<meta property="article:modified_time" content="2020-02-06T16:11:32+08:00" />
+<meta itemprop="name" content="Markdown">
+<meta itemprop="description" content="Markdown是一种纯文本格式的标记语言。通过简单的标记语法，它可以使普通文本内容具有一定的格式。">
+<meta itemprop="datePublished" content="2020-02-06T16:11:32&#43;08:00" />
+<meta itemprop="dateModified" content="2020-02-06T16:11:32&#43;08:00" />
+<meta itemprop="wordCount" content="2352">
+
+
+
+<meta itemprop="keywords" content="文本编辑,标记语言," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Markdown"/>
+<meta name="twitter:description" content="Markdown是一种纯文本格式的标记语言。通过简单的标记语法，它可以使普通文本内容具有一定的格式。"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Leopord</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">archive</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">categories</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">Leopord</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">archive</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">categories</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Markdown</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2020-02-06 </span>
+        <div class="post-category">
+            <a href="/categories/%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91/"> 文本编辑 </a>
+            </div>
+        
+      </div>
+    </header>
+
+    
+    <div class="post-content">
+      <p>Markdown是一种纯文本格式的标记语言。通过简单的标记语法，它可以使普通文本内容具有一定的格式。</p>
+<p>相比WYSIWYG编辑器</p>
+<p>优点：</p>
+<ol>
+<li>因为是纯文本，所以只要支持Markdown的地方都能获得一样的编辑效果，可以让作者摆脱排版的困扰，专心写作。</li>
+<li>操作简单。比如:WYSIWYG编辑时标记个标题，先选中内容，再点击导航栏的标题按钮，选择几级标题。要三个步骤。而Markdown只需要在标题内容前加#即可</li>
+</ol>
+<p>缺点：</p>
+<ol>
+<li>需要记一些语法（当然，是很简单。五分钟学会）。</li>
+<li>有些平台不支持Markdown编辑模式。</li>
+</ol>
+<p>还好，简书是支持Markdown编辑模式的。开启方式：设置-&gt;默认编辑器-&gt;Markdown编辑器</p>
+<h1 id="一标题">一、标题</h1>
+<p>在想要设置为标题的文字前面加#来表示
+一个#是一级标题，二个#是二级标题，以此类推。支持六级标题。</p>
+<p>注：标准语法一般在#后跟个空格再写文字，貌似简书不加空格也行。</p>
+<p>示例：</p>
+<pre><code class="language-markdown"># 这是一级标题
+## 这是二级标题
+### 这是三级标题
+#### 这是四级标题
+##### 这是五级标题
+###### 这是六级标题
+</code></pre>
+<p>效果如下：</p>
+<h1 id="这是一级标题">这是一级标题</h1>
+<h2 id="这是二级标题">这是二级标题</h2>
+<h3 id="这是三级标题">这是三级标题</h3>
+<h4 id="这是四级标题">这是四级标题</h4>
+<h5 id="这是五级标题">这是五级标题</h5>
+<h6 id="这是六级标题">这是六级标题</h6>
+<h1 id="二字体">二、字体</h1>
+<h2 id="1加粗"><strong>1.加粗</strong></h2>
+<p>要加粗的文字左右分别用两个*号包起来</p>
+<h2 id="2斜体"><strong>2.斜体</strong></h2>
+<p>要倾斜的文字左右分别用一个*号包起来</p>
+<h2 id="3斜体加粗"><strong>3.斜体加粗</strong></h2>
+<p>要倾斜和加粗的文字左右分别用三个*号包起来</p>
+<h2 id="4删除线"><strong>4.删除线</strong></h2>
+<p>要加删除线的文字左右分别用两个~~号包起来</p>
+<p>示例：</p>
+<pre><code class="language-markdown">**这是加粗的文字**
+*这是倾斜的文字*`
+***这是斜体加粗的文字***
+~~这是加删除线的文字~~
+</code></pre>
+<p>效果如下：</p>
+<p><strong>这是加粗的文字</strong></p>
+<p><em>这是倾斜的文字</em>`</p>
+<p><em><strong>这是斜体加粗的文字</strong></em></p>
+<p><del>这是加删除线的文字</del></p>
+<h1 id="三引用">三、引用</h1>
+<p>在引用的文字前加&gt;即可。引用也可以嵌套，如加两个&gt;、三个&gt;</p>
+<p>n个&hellip;</p>
+<p>貌似可以一直加下去，但没神马卵用</p>
+<p>示例：</p>
+<pre><code class="language-markdown">&gt;这是引用的内容
+&gt;&gt;这是引用的内容
+&gt;&gt;&gt;&gt;&gt;这是引用的内容
+</code></pre>
+<p>效果如下：</p>
+<blockquote>
+<p>这是引用的内容</p>
+<blockquote>
+<p>这是引用的内容</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>这是引用的内容</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<h1 id="四分割线">四、分割线</h1>
+<p>三个或者三个以上的 - 或者 * 都可以。</p>
+<p>示例：</p>
+<pre><code class="language-markdown">---
+----
+***
+*****
+</code></pre>
+<p>效果如下：</p>
+<hr>
+<hr>
+<hr>
+<hr>
+<p>可以看到，显示效果是一样的。</p>
+<h1 id="五图片">五、图片</h1>
+<p>语法：</p>
+<pre><code class="language-markdown">![图片alt](图片地址 ''图片title'')
+图片alt就是显示在图片下面的文字，相当于对图片内容的解释。
+图片title是图片的标题，当鼠标移到图片上时显示的内容。title可加可不加
+</code></pre>
+<p>示例：</p>
+<pre><code class="language-markdown">![blockchain](https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/
+u=702257389,1274025419&amp;fm=27&amp;gp=0.jpg &quot;区块链&quot;)
+</code></pre>
+<p>效果如下：</p>
+<p><img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=702257389,1274025419&amp;fm=27&amp;gp=0.jpg" alt="blockchain" title="区块链"></p>
+<h1 id="六超链接">六、超链接</h1>
+<p>语法：</p>
+<pre><code class="language-markdown">[超链接名](超链接地址 &quot;超链接title&quot;)
+title可加可不加
+</code></pre>
+<p>示例：</p>
+<pre><code class="language-markdown">[百度](http://baidu.com)
+</code></pre>
+<p>效果如下：</p>
+<p><a href="http://baidu.com">百度</a></p>
+<p>注：Markdown本身语法不支持链接在新页面中打开，貌似简书做了处理，是可以的。别的平台可能就不行了，如果想要在新页面中打开的话可以用html语言的a标签代替。</p>
+<pre><code class="language-html">&lt;a href=&quot;超链接地址&quot; target=&quot;_blank&quot;&gt;超链接名&lt;/a&gt;
+</code></pre>
+<p>示例</p>
+<pre><code class="language-html">&lt;a href=&quot;https://www.jianshu.com/&quot; target=&quot;_blank&quot;&gt;百度&lt;/a&gt;
+</code></pre>
+<p><!-- raw HTML omitted -->百度<!-- raw HTML omitted --></p>
+<h1 id="七列表">七、列表</h1>
+<h2 id="1无序列表">1.无序列表</h2>
+<p>语法：</p>
+<p>无序列表用 - + * 任何一种都可以</p>
+<pre><code class="language-markdown">- 列表内容
++ 列表内容
+* 列表内容
+注意：- + * 跟内容之间都要有一个空格
+</code></pre>
+<p>效果如下：</p>
+<ul>
+<li>列表内容</li>
+</ul>
+<ul>
+<li>列表内容</li>
+</ul>
+<ul>
+<li>列表内容</li>
+</ul>
+<h2 id="2有序列表">2.有序列表</h2>
+<p>语法：</p>
+<p>数字加点</p>
+<pre><code class="language-markdown">1. 列表内容
+2. 列表内容
+3. 列表内容
+注意：序号跟内容之间要有空格
+</code></pre>
+<p>效果如下：</p>
+<ol>
+<li>列表内容</li>
+<li>列表内容</li>
+<li>列表内容</li>
+</ol>
+<h2 id="3列表嵌套">3.列表嵌套</h2>
+<p><strong>上一级和下一级之间敲三个空格即可</strong></p>
+<ul>
+<li>一级无序列表内容
+<ul>
+<li>二级无序列表内容</li>
+<li>二级无序列表内容</li>
+<li>二级无序列表内容</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>一级无序列表内容
+<ol>
+<li>二级有序列表内容</li>
+<li>二级有序列表内容</li>
+<li>二级有序列表内容</li>
+</ol>
+</li>
+</ul>
+<ol>
+<li>一级有序列表内容
+<ul>
+<li>二级无序列表内容</li>
+<li>二级无序列表内容</li>
+<li>二级无序列表内容</li>
+</ul>
+</li>
+<li>一级有序列表内容
+<ol>
+<li>二级有序列表内容</li>
+<li>二级有序列表内容</li>
+<li>二级有序列表内容</li>
+</ol>
+</li>
+</ol>
+<h1 id="八表格">八、表格</h1>
+<p>语法：</p>
+<pre><code class="language-markdown">表头|表头|表头
+---|:--:|--:
+内容|内容|内容
+内容|内容|内容
+
+第二行分割表头和内容。
+- 有一个就行，为了对齐，多加了几个
+文字默认居左
+-两边加：表示文字居中
+-右边加：表示文字居右
+注：原生的语法两边都要用 | 包起来。此处省略
+</code></pre>
+<p>示例：</p>
+<pre><code class="language-markdown">姓名|技能|排行
+---|:--:|--:
+刘备|哭|大哥
+关羽|打|二哥
+张飞|骂|三弟
+</code></pre>
+<p>效果如下：</p>
+<table>
+<thead>
+<tr>
+<th>姓名</th>
+<th align="center">技能</th>
+<th align="right">排行</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>刘备</td>
+<td align="center">哭</td>
+<td align="right">大哥</td>
+</tr>
+<tr>
+<td>关羽</td>
+<td align="center">打</td>
+<td align="right">二哥</td>
+</tr>
+<tr>
+<td>张飞</td>
+<td align="center">骂</td>
+<td align="right">三弟</td>
+</tr>
+</tbody>
+</table>
+<h1 id="九代码">九、代码</h1>
+<p>语法：</p>
+<p>单行代码：代码之间分别用一个反引号包起来</p>
+<pre><code class="language-markdown">`代码内容`
+</code></pre>
+<p>代码块：代码之间分别用三个反引号包起来，且两边的反引号单独占一行</p>
+<pre><code class="language-markdown">(```)
+  代码...
+  代码...
+  代码...
+(```)
+注：为了防止转译，前后三个反引号处加了小括号，实际是没有的。这里只是用来演示，实际中去掉两边小括号即可。
+</code></pre>
+<p>示例：</p>
+<p>单行代码</p>
+<pre><code class="language-markdown">`create database hero;`
+</code></pre>
+<p>代码块</p>
+<pre><code class="language-markdown">(```)
+    function fun(){
+         echo &quot;这是一句非常牛逼的代码&quot;;
+    }
+    fun();
+(```)
+</code></pre>
+<p>效果如下：</p>
+<p>单行代码</p>
+<p><code>create database hero;</code></p>
+<p>代码块</p>
+<pre><code class="language-javascript">function fun() {
+  echo &quot;这是一句非常牛逼的代码&quot;;
+}
+fun();
+</code></pre>
+<h1 id="十hugo-even主题自带使用方法">十、Hugo Even主题自带使用方法</h1>
+<h2 id="1-mathjax">1. MathJax</h2>
+<p>行内公式：$\alpha+\beta=\gamma$</p>
+<p>跨行公式：$$\alpha+\beta=\gamma$$</p>
+<p>行内公式：$ J_\alpha(x) = \sum_{m=0}^\infty \frac{(-1)^m}{m! \Gamma (m + \alpha + 1)} {\left({ \frac{x}{2} }\right)}^{2m + \alpha} $</p>
+<p>跨行公式：$$ J_\alpha(x) = \sum_{m=0}^\infty \frac{(-1)^m}{m! \Gamma (m + \alpha + 1)} {\left({ \frac{x}{2} }\right)}^{2m + \alpha} $$</p>
+<blockquote>
+<p>更多用法详见：</p>
+<ol>
+<li>LaTex： <a href="https://www.latex-project.org/">https://www.latex-project.org/</a></li>
+<li>MathJax：<a href="https://www.mathjax.org/">https://www.mathjax.org/</a></li>
+</ol>
+</blockquote>
+<h2 id="2-流程图">2. 流程图</h2>
+<pre><code class="language-markdown">(```)flowchart
+st=&gt;start: Start|past:&gt;http://www.google.com[blank]
+e=&gt;end: End:&gt;http://www.google.com
+op1=&gt;operation: My Operation|past
+op2=&gt;operation: Stuff|current
+sub1=&gt;subroutine: My Subroutine|invalid
+cond=&gt;condition: Yes
+or No?|approved:&gt;http://www.google.com
+c2=&gt;condition: Good idea|rejected
+io=&gt;inputoutput: catch something...|request
+
+st-&gt;op1(right)-&gt;cond
+cond(yes, right)-&gt;c2
+cond(no)-&gt;sub1(left)-&gt;op1
+c2(yes)-&gt;io-&gt;e
+c2(no)-&gt;op2-&gt;e
+(```)
+</code></pre>
+<p>效果如下：</p>
+<pre><code class="language-flowchart">st=&gt;start: Start|past:&gt;http://www.google.com[blank]
+e=&gt;end: End:&gt;http://www.google.com
+op1=&gt;operation: My Operation|past
+op2=&gt;operation: Stuff|current
+sub1=&gt;subroutine: My Subroutine|invalid
+cond=&gt;condition: Yes
+or No?|approved:&gt;http://www.google.com
+c2=&gt;condition: Good idea|rejected
+io=&gt;inputoutput: catch something...|request
+
+st-&gt;op1(right)-&gt;cond
+cond(yes, right)-&gt;c2
+cond(no)-&gt;sub1(left)-&gt;op1
+c2(yes)-&gt;io-&gt;e
+c2(no)-&gt;op2-&gt;e
+</code></pre>
+<blockquote>
+<p>用法详见：<a href="http://flowchart.js.org/">http://flowchart.js.org/</a></p>
+</blockquote>
+<h2 id="3-时序图">3. 时序图</h2>
+<pre><code class="language-Markdown">(```)sequence
+Title: Here is a title
+A-&gt;B: Normal line
+B--&gt;C: Dashed line
+C-&gt;&gt;D: Open arrow
+D--&gt;&gt;A: Dashed open arrow
+(```)
+</code></pre>
+<p>效果图下：</p>
+<pre><code class="language-sequence">Title: Here is a title
+A-&gt;B: Normal line
+B--&gt;C: Dashed line
+C-&gt;&gt;D: Open arrow
+D--&gt;&gt;A: Dashed open arrow
+</code></pre>
+<blockquote>
+<p>用法详见：<a href="https://bramp.github.io/js-sequence-diagrams/">https://bramp.github.io/js-sequence-diagrams/</a></p>
+</blockquote>
+<h2 id="4-even主题">4. Even主题</h2>
+<blockquote>
+<p>更多Even主题介绍详见：<a href="https://blog.olowolo.com/example-site">https://blog.olowolo.com/example-site</a></p>
+</blockquote>
+    </div>
+
+    
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91/">文本编辑</a>
+          <a href="/tags/%E6%A0%87%E8%AE%B0%E8%AF%AD%E8%A8%80/">标记语言</a>
+          </div>
+      <nav class="post-nav">
+        <a class="prev" href="/post/vim/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">Vim操作命令</span>
+            <span class="prev-text nav-mobile">上一篇</span>
+          </a>
+        
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:leopordt@hotmail.com" class="iconfont icon-email" title="email"></a>
+      <a href="http://github.com/leopord" class="iconfont icon-github" title="github"></a>
+  <a href="https://leopord.github.io/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    由 <a class="hexo-link" href="https://gohugo.io">Hugo</a> 强力驱动
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    主题 - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2020
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">Leopord</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  <script src="/lib/highlight/highlight.pack.js?v=20171001"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script><script></script><script src="https://cdn.jsdelivr.net/npm/raphael@2.2.7/raphael.min.js" integrity="sha256-67By+NpOtm9ka1R6xpUefeGOY8kWWHHRAKlvaTJ7ONI=" crossorigin="anonymous"></script> <script src="https://cdn.jsdelivr.net/npm/flowchart.js@1.8.0/release/flowchart.min.js" integrity="sha256-zNGWjubXoY6rb5MnmpBNefO0RgoVYfle9p0tvOQM+6k=" crossorigin="anonymous"></script><script></script><script src="https://cdn.jsdelivr.net/npm/webfontloader@1.6.28/webfontloader.js" integrity="sha256-4O4pS1SH31ZqrSO2A/2QJTVjTPqVe+jnYgOWUVr7EEc=" crossorigin="anonymous"></script> <script src="https://cdn.jsdelivr.net/npm/snapsvg@0.5.1/dist/snap.svg-min.js" integrity="sha256-oI+elz+sIm+jpn8F/qEspKoKveTc5uKeFHNNVexe6d8=" crossorigin="anonymous"></script> <script src="https://cdn.jsdelivr.net/npm/underscore@1.8.3/underscore-min.js" integrity="sha256-obZACiHd7gkOk9iIL/pimWMTJ4W/pBsKu+oZnSeBIek=" crossorigin="anonymous"></script> <script src="https://cdn.jsdelivr.net/gh/bramp/js-sequence-diagrams@2.0.1/dist/sequence-diagram-min.js" integrity="sha384-8748Vn52gHJYJI0XEuPB2QlPVNUkJlJn9tHqKec6J3q2r9l8fvRxrgn/E5ZHV0sP" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bramp/js-sequence-diagrams@2.0.1/dist/sequence-diagram-min.css" integrity="sha384-6QbLKJMz5dS3adWSeINZe74uSydBGFbnzaAYmp+tKyq60S7H2p6V7g1TysM5lAaF" crossorigin="anonymous">
+<script type="text/javascript" src="/dist/even.26188efa.min.js"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+      showProcessingMessages: false,
+      messageStyle: 'none'
+    };
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"  integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>
